@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*{
+  text-decoration: none;
+  list-style: none;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+.noteapp {
+
+  background: rgb(133, 244, 244);
+  border-radius: 8px;
+  width: 720px;
+  margin: 0 auto;
+  position: relative;
+  min-height: 390px;
+  .header{
+   text-align: center;
+    top: 0;
+    font-size: 30px;
+    text-shadow: 6px 6px #fd9797;
+    color: rgb(255, 192, 192);
+  }
+  .filter{
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    input{
+      text-align: center;
+      font-size: 20px;
+      border: none;
+      outline: none;
+      width: 500px;
+      height: 40px;
+      border-radius: 10px;
+    }
+  }
+  .content{
+    text-align: center;
+    margin-top: 30px;
+   
+    textarea{
+     resize: none;
+     outline: none;
+     border: none;
+     border-radius: 4px;
+     padding: 14px;
+     position: relative;
+    
+    }
+    .action{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     
+      .box{
+        display: flex;
+        gap: 10px;
+        position: absolute;
+        left: 95px;
+        bottom: 45px;
+        
+     
+       
+       
+        .box1{
+          background-color: red;
+          width: 20px;
+          cursor: pointer;
+          border-radius: 10px;
+          height: 20px;
+      
+        }
+        .box1:focus{
+          border: 1px solid #000;
+        }
+        .box2{
+          border-radius: 10px;
+          background-color: blue;
+          cursor: pointer;
+          width: 20px;
+          height: 20px;
+        }
+        .box2:focus{
+          border: 1px solid #000;
+        }
+        .box3{
+          background-color:yellowgreen;
+          cursor: pointer;
+          border-radius: 10px;
+          width: 20px;
+          height: 20px;
+        }
+        .box3:focus{
+          border: 1px solid #000;
+        }
+        .box4{
+          border-radius: 10px;
+          background-color: aqua;
+          cursor: pointer;
+          width: 20px;
+          height: 20px;
+        }
+        .box4:focus{
+          border: 1px solid #000;
+        }
+        
+      }
+      .send{
+        button{
+          position: absolute;
+          right: 95px;
+          bottom: 45px;
+          border: none;
+          outline: none;
+          height: 30px;
+          border-radius: 8px;
+          background-color: greenyellow;
+          width: 70px;
+          cursor: pointer;
+        }
+        
+      }
+    }
+
+  }
+ 
+}
+.notelist{
+  ul{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-wrap: wrap;
+    
+    li{
+      width: 25%;
+      border-radius: 10px;
+      text-align: center;
+      white-space: nowrap;
+      padding: 10px;
+      color: var(--textColor);
+      background-color: var(--bgColor);
+      margin: 10px;
+    }
+  }
+}
