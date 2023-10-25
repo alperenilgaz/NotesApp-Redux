@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+![Ekran görüntüsü 2023-10-25 165735](https://github.com/alperenilgaz/NotesApp-Redux/assets/97908293/4e205c81-aef7-48eb-a29b-eebadfa0fe6a)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
